@@ -73,6 +73,10 @@ const Success = async ({ params: { userId }, searchParams }: SearchParamProps) =
                 <Link href={`/patients/${userId}/new-appointment`}>
                     New Appointment
                 </Link>
+
+                <Link href={'/'}>
+                    Back to home
+                </Link>
             </Button>
 
             <p className="copyright">
